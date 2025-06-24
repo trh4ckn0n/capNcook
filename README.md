@@ -2,7 +2,7 @@
 ➡️
 <a href="[capNcook](https://github.com/trh4ckn0n/capNcook/wiki">Documentation</a> |
     <a href="https://discord.h00dy.me">345y Discord</a> |
-        <a href="https://github.com/trh4ckn0n/capNcook/wiki/Installation">Installation Guide</a>  
+        <a href="https://github.com/hoodietramp/capNcook/wiki/Installation">Installation Guide</a>  
  ⬅️
 <!-- 
 <br>
