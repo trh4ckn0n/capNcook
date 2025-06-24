@@ -6,128 +6,123 @@
 
 body {
     margin: 0;
-    text-align: center;
-    background-color: #f7f7f7;
     padding: 20px;
+    text-align: center;
+    background-color: #0d0d0d;
+    color: #00ffcc;
+    font-family: 'Proto Mono', monospace;
 }
 
 h1 {
-    font-family: 'Righteous', cursive;
-    font-size: 2vw;
-    color: #21325b;
-    text-align: center;
+    font-size: 2.5vw;
+    color: #00ffcc;
+    text-shadow: 0 0 5px #00ffcc, 0 0 10px #00ffaa;
+    margin-bottom: 20px;
 }
 
 table {
     width: 90%;
-    margin: 10px auto;
-    border: none;
-    border-radius: 5px;
+    margin: 20px auto;
     border-collapse: separate;
-    background-color: transparent;
-    box-shadow: 0 0 10px #21325b;
+    border-spacing: 0;
+    background-color: #1a1a1a;
+    box-shadow: 0 0 10px #00ffcc, 0 0 15px #008080;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
-table:hover{
-    box-shadow: 0 0 10px #848884, 0 0 15px #21325b;
-    transition: border 0.3s, box-shadow 0.5s;
+table:hover {
+    box-shadow: 0 0 20px #00ffcc, 0 0 30px #00ffaa;
+    transition: box-shadow 0.5s;
 }
 
 th, td {
-    border: 1px solid #b2beb5;
-    border-radius: 5px;
+    border: 1px solid #333;
+    padding: 12px;
+    text-align: center;
 }
 
 td {
-    padding: 10px;
-    text-align: center;
-    font-family: 'Ubuntu Mono', monospace;
     font-size: 1rem;
-    font-weight: 700;
-    color: #3c4a54;
+    font-weight: bold;
+    color: #00ffcc;
+    font-family: 'Ubuntu Mono', monospace;
 }
 
 th {
-    background-color: #b2beb5; 
-    padding: 10px;
-    text-align: center;
-    font-family: 'Righteous', cursive;
-    font-size: 1vw;
-    font-weight: 100rem;
-    color: #004687;
+    background-color: #111;
+    color: #00ffaa;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-family: 'Proto Mono', monospace;
 }
 
-th {
-    cursor: default;
+tr {
+    background-color: #141414;
 }
 
-tr{
-    background-color: #e5e4e2;
-}
-
-tr:hover{
-    background-color: #FAF9F6;
+tr:hover {
+    background-color: #1f1f1f;
     transition: background-color 0.3s;
 }
 
-/* Centered button container */
+/* Buttons */
 .centered-container {
     display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    margin-right: 45%;
-    margin-left: 44%;
+    justify-content: center;
+    margin: 30px auto 10px;
 }
 
 .square-refresh-button {
-    background-color: rgb(0, 0, 0);
-    opacity: 0.5;
+    background-color: #000;
+    opacity: 0.7;
     border-radius: 5px;
-    border: none;
-    width: 35px;
-    height: 35px;
-    padding: 10 auto;
-    box-shadow: 0 0 10px #21325b, 0 0 20px #848884;
+    border: 1px solid #00ffcc;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 0 10px #00ffcc, 0 0 15px #00ffaa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
 }
 
 .square-refresh-button i {
-    font-size: 17px;
+    font-size: 18px;
     color: #e0ff05;
+    transition: 0.3s;
 }
 
 .square-refresh-button:hover {
-    background-color: #36454F;
+    background-color: #111;
     cursor: pointer;
-    opacity: 0.7;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2), 0px 0px 20px rgba(0, 0, 0, 0.4);
-    transition: background-color 0.3s;
+    opacity: 1;
+    box-shadow: 0 0 15px #00ffcc, 0 0 25px #00ffaa;
 }
 
 .square-refresh-button i:hover {
-    color: #fc7a00;
+    color: #ff6600;
 }
 
-#run_button{
-    background-color: #21325b;
-    opacity: 0.8;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    border: none;
-    width: 170px; 
-    height: 35px; 
-    padding: 10 auto;
-    box-shadow: 0 0 5px #21325b, 0 0 10px #848884;
-    font-size: 19.7px;
-    color: #ffffff;
-    font-family: 'Ubuntu Mono', monospace;
-}
-
-#run_button:hover{
-    background-color: #212121;
-    cursor: pointer;
+/* Run Button */
+#run_button {
+    background-color: #000;
     opacity: 0.9;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2), 0px 0px 20px rgba(0, 0, 0, 0.4);
-    transition: background-color 0.3s;
-    color: #ffb1b1;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 1px solid #00ffcc;
+    width: 200px;
+    height: 40px;
+    box-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffaa;
+    font-size: 18px;
+    color: #00ffcc;
+    font-family: 'Ubuntu Mono', monospace;
+    transition: 0.3s;
+}
+
+#run_button:hover {
+    background-color: #111;
+    color: #ff99cc;
+    box-shadow: 0 0 20px #ff99cc, 0 0 25px #ff66cc;
+    cursor: pointer;
 }
