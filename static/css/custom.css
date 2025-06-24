@@ -164,3 +164,22 @@ input[type="text"] {
     0% { transform: rotate(0deg);}
     100% { transform: rotate(360deg);}
 }
+
+/* Structure générale : empêche le chevauchement */
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* Ajoute un espace entre les sections */
+section, .entry_node, .exit_node, .navbar, .search-container, .link-container, .message {
+    margin-bottom: 30px;
+}
+
+/* Force les éléments à ne pas flotter côte à côte */
+.entry_node, .exit_node, .navbar, .search-container, .link-container {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
