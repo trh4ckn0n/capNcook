@@ -62,12 +62,7 @@ a:hover {
     box-shadow: 0 0 10px #00ffe7;
 }
 
-@media screen and (max-width: 600px) {
-    .navbar-button {
-        width: 100%;
-        text-align: center;
-    }
-}
+
 .search-container {
     display: flex;
     justify-content: center;
