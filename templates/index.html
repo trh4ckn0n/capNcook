@@ -10,11 +10,20 @@
     <link href="https://fonts.googleapis.com/css?family=Righteous|Ubuntu+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/main.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/custom.css') }}">
-
+<style>
+    .neon-title {
+        font-family: 'Righteous', cursive;
+        color: #00ffe7;
+        text-shadow: 0 0 5px #00ffe7, 0 0 10px #00ffe7, 0 0 20px #ff00ff;
+        text-align: center;
+        font-size: 2.5em;
+        margin-top: 30px;
+    }
+</style>
 </head>
 
 <body>
-
+<h1 class="neon-title">capNcook</h1>
     <div class="entry_node">
         <p class="ip-address">Entry Node -> </p><br>
         <ul class="entry_ip">
@@ -121,6 +130,9 @@
             localStorage.setItem('selectedEngine', selectedValue);
         });
     </script>
+    <footer style="text-align:center; padding:20px; color:#666;">
+    Made with 🧅 by <strong style="color:#00ffe7;">trhacknon</strong> • <a href="https://github.com/trhacknon/capNcook" target="_blank">GitHub</a>
+</footer>
 </body>
 
 </html>
