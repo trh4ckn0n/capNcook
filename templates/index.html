@@ -19,11 +19,20 @@
         font-size: 2.5em;
         margin-top: 30px;
     }
+    .main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
 </style>
 </head>
 
 <body>
 <h1 class="neon-title">capNcook</h1>
+    <div class="main-container">
+    <!-- formulaire, champs, etc -->
     <div class="entry_node">
         <p class="ip-address">Entry Node -> </p><br>
         <ul class="entry_ip">
@@ -97,7 +106,7 @@
             </div>
         </div>
     </form>
-    
+    </div>    
     <div class="link-container">
         <ul>
             {% for domain in domain_links %}
