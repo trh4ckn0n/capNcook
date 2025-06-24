@@ -84,7 +84,7 @@ If you're having trouble with setting up capNcook, [read this.](https://github.c
 
 | Installation Guide                                                          | Documentation                                             | 345y Discord                                |
 | --------------------------------------------------------------------------- | --------------------------------------------------------- | ------------------------------------------- |
-| 📖 [Installation Guide](https://github.com/hoodietramp/capNcook/wiki/Installation) | 📚 [Documentation](https://github.com/hoodietramp/capNcook/wiki) | 🦜 [Discord](https://discord.h00dy.me) |
+| 📖 [Installation Guide]([https://github.com/hoodietramp](https://github.com/trh4ckn0n/capNcook/wiki/Installation) | 📚 [Documentation](https://github.com/trh4ckn0n/capNcook/wiki) | 🦜 [Discord](https://discord.h00dy.me) |
 
 ## 🏃‍♀️Running capNcook
 
